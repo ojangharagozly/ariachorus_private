@@ -1,0 +1,130 @@
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      
+	  #map {
+        height: 97%;
+		position:fixed;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      
+	  html, body {
+        height: 98%;
+        margin: 0;
+        padding: 0;
+      }
+	 
+	 #body{
+		background-color:#000;
+		color:#fff; 
+		}
+	
+	#notes
+	{}
+	#video
+	{
+		z-index:14;
+		padding:13px;
+		background-color:#000;
+		border-color:#000;
+		padding-left:13px;
+		padding-right:13px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border-radius:3px;
+	}
+
+	
+/*	
+#login-link{}
+
+.pre-auth{visibility:visible;}
+
+.post-auth{visibility:hidden;}
+*/
+
+ button {
+	width:135px;
+	height:35px;
+	position:fixed;
+	left:-4;
+	z-index:10;
+	background-color:#000;
+	color:#fff;
+	border:none;
+	cursor:pointer;
+	font-size:7px;
+}
+
+#md{
+	background-color: #000;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	z-index:10;
+	position:fixed;
+	left:35%;
+	top:100px;
+	width: 357px;
+	height: 317px;
+	opacity: .76;
+	visibility:visible;
+}
+#close{
+	position:absolute;
+	left:25px;
+	top:33px;
+	color:black;
+	z-index:13;
+	font-size: 13;
+	font-weight: bolder;
+	visibility:visible;
+}
+
+
+#adContainer{
+	margin-top:20px;
+	width: 337px;
+	height:281px;
+	background-color:#fff;
+	z-index:12;
+}
+
+	  
+#placeSearch {
+	width:!important 125px;
+	height:!important 50px;
+	z-index:!important 10;
+	position:!important fixed;
+	top:15px;
+	right:400px;
+}
+#loadMap{
+	width:!important 150px;
+	height:!important 75px;
+	-moz-border-radius:!important 5px;
+	-webkit-border-radius:!important 5px;
+	border-radius:!important 5px;
+	position:relative;
+	background-color: #000;
+	color:#fff;
+	border:none;
+	cursor:pointer;
+	z-index:9;
+}
+
+#side{
+	position:fixed;
+	width:!important 300px;
+	height:!important 1200px;
+	background-color:#fff;
+    z-index:12;
+
+	}
+#nform{
+	visibility:hidden;
+	position:fixed;
+	z-index:15;
+	bottom:0;
+	left:200;
+	right:200;
+}
